@@ -1,12 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|d:\\at1_webdev_el_gran\\el_gran_petcare\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|d:\\at1_webdev_el_gran\\el_gran_petcare\\models\\appointmentmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:models\\appointmentmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PetCare_DB/True/SqlTable/dbo.OwnerTable.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.OwnerTable [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PetCare_DB/True/SqlTable/dbo.OwnerTable.sql",
+              "ToolTip": "dbo.OwnerTable [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-16T04:04:36.35Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwE4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T04:37:09.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentModels.cs",
+              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Models\\AppointmentModels.cs",
+              "RelativeDocumentMoniker": "Models\\AppointmentModels.cs",
+              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Models\\AppointmentModels.cs",
+              "RelativeToolTip": "Models\\AppointmentModels.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA0wCAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T04:15:33.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
