@@ -15,6 +15,7 @@ CREATE TABLE [dbo].[VetTable] (
 
 
 
+
 CREATE TABLE [dbo].[PetTable] (
     [petID]      INT           IDENTITY (1, 1) NOT NULL,
     [petName]    NVARCHAR (50) NULL,
@@ -24,17 +25,21 @@ CREATE TABLE [dbo].[PetTable] (
     [petAge]     INT           NULL,
     [ownerID]    INT           NOT NULL,
     PRIMARY KEY CLUSTERED ([petID] ASC),
-    CONSTRAINT [FK_PetTable_ToOwnerTable] FOREIGN KEY ([ownerID]) REFERENCES [dbo].[OwnerTable] ([ownerID])
+    CONSTRAINT [FK_PetTable_ownerID] FOREIGN KEY ([ownerID]) REFERENCES [dbo].[OwnerTable] ([ownerID])
 );
+
 
 CREATE TABLE [dbo].[AppointmentTable] (
     [appointmentID]     INT           IDENTITY (1, 1) NOT NULL,
-    [petID]             INT           NOT NULL,
-    [ownerID]           INT           NOT NULL,
+    [ownerID]           INT           NULL,
+    [petID]             INT           NULL,
+    [vetID]             INT           NULL,
     [appointmentDate]   DATE          NULL,
     [appointmentReason] NVARCHAR (50) NULL,
-    [appointmentNotes]  NVARCHAR (50) NULL,
+    [appointmentNote]   NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([appointmentID] ASC),
-    CONSTRAINT [FK_AppointmentTable_ToOwnerTable] FOREIGN KEY ([petID]) REFERENCES [dbo].[PetTable] ([petID]),
-    CONSTRAINT [FK_AppointmentTable_ToPetTable] FOREIGN KEY ([ownerID]) REFERENCES [dbo].[OwnerTable] ([ownerID])
+    CONSTRAINT [FK_AppointmentTable_ToOwnerTable] FOREIGN KEY ([ownerID]) REFERENCES [dbo].[OwnerTable] ([ownerID]),
+    CONSTRAINT [FK_appointmentTable_ToPetTable] FOREIGN KEY ([petID]) REFERENCES [dbo].[PetTable] ([petID]),
+    CONSTRAINT [FK_appointmentTable_ToVetTable] FOREIGN KEY ([vetID]) REFERENCES [dbo].[VetTable] ([vetID])
 );
+

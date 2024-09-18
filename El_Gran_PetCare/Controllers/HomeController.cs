@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace El_Gran_PetCare.Controllers
 {
@@ -18,7 +19,7 @@ namespace El_Gran_PetCare.Controllers
             var appointments = new List<AppointmentModels>();
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM Appointment";
+                string query = "SELECT * FROM AppointmentTable";
                 SqlCommand cmd = new SqlCommand(query, connection);
                 connection.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -38,7 +39,7 @@ namespace El_Gran_PetCare.Controllers
                     
                 }
             }
-            return View();
+            return View(appointments);
         }
 
         public ActionResult Create()
@@ -54,7 +55,7 @@ namespace El_Gran_PetCare.Controllers
             {
                 connection.Open();
                 string ownerQuery = "INSERT INTO OwnerTable VALUES (@ownerName, @ownerPhone, @ownerEmail)";
-                string petQuery = "INSERT INTO petTable VALUES(@petName, @petSpecies, @petBreed, @petGender, @petAge, @ownerID";
+                string petQuery = "INSERT INTO PetTable VALUES(@petName, @petSpecies, @petBreed, @petGender, @petAge, @ownerID";
                 string appointmentQuery = "INSERT INTO AppointmentTable VALUES (@owenerID, @petID, @vetID, @appointmentDate, @appointmentReason, @appointNote";
                 SqlCommand ownerCmd = new SqlCommand(ownerQuery, connection);
                 ownerCmd.Parameters.AddWithValue("@ownerName", ownerClass.ownerName);
@@ -79,6 +80,21 @@ namespace El_Gran_PetCare.Controllers
                 appointmentCmd.ExecuteNonQuery();
 
             }
+            return RedirectToAction("Index");
+
+
+        }
+
+        public ActionResult UpdateAppointment(int appointID)
+        {
+            AppointmentModels appointmentModel = new AppointmentModels();   
+            DataTable appointmentData = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                
+            }
+
             return RedirectToAction("Index");
         }
     }
