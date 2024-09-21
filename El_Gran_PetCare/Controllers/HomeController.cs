@@ -85,6 +85,23 @@ namespace El_Gran_PetCare.Controllers
 
         }
 
+        public ActionResult CreateOwner(OwnerClass ownerClass)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string ownerQuery = "INSERT INTO OwnerTable VALUES (@ownerName, @ownerPhone, @ownerEmail)";
+                SqlCommand ownerCmd = new SqlCommand(ownerQuery, connection);
+                ownerCmd.Parameters.AddWithValue("@ownerName", ownerClass.ownerName);
+                ownerCmd.Parameters.AddWithValue("@ownerPhone", ownerClass.ownerPhone);
+                ownerCmd.Parameters.AddWithValue("@ownerEmail", ownerClass.ownerEmail);
+                ownerCmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("Index");
+        }
+
+
+
         public ActionResult UpdateAppointment(int appointID)
         {
             AppointmentModels appointmentModel = new AppointmentModels();   
