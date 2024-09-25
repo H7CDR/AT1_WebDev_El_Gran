@@ -1,0 +1,37 @@
+﻿@model IEnumerable<El_Gran_PetCare.Models.PetClass>
+
+<h3>Pet</h3>
+<p>@Html.ActionLink("New Pet", "CreatePet")</p>
+<table>
+    <thead>
+        <tr>
+            <th>Pet ID</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Breed</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Owner ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pet in Model)
+        {
+            <tr>
+                <td>@pet.petID</td>
+                <td>@pet.petName</td>
+                <td>@pet.petSpecies</td>
+                <td>@pet.petBreed</td>
+                <td>@(pet.petGender ? "Female": "Male")</td>
+                <td>@pet.petAge</td>
+                <td>@pet.ownerID</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Home", new {@id=pet.petID })">Edit</a>
+                    <a href="@Url.Action("Delete", "Home", new {@id=pet.petID })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+

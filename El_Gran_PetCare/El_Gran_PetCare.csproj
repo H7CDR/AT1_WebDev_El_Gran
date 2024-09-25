@@ -177,8 +177,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Create.cshtml" />
+    <Content Include="Views\Home\AppointmentIndex.cshtml" />
+    <Content Include="Views\Home\CreateVet.cshtml" />
+    <Content Include="Views\Home\CreateOwner.cshtml" />
+    <Content Include="Views\Home\CreateAppointment.cshtml" />
+    <Content Include="Views\Home\VetIndex.cshtml" />
+    <Content Include="Views\Home\OwnerIndex.cshtml" />
+    <Content Include="Views\Home\PetIndex.cshtml" />
+    <Content Include="Views\Home\CreatePet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
