@@ -1,0 +1,28 @@
+﻿@model IEnumerable<El_Gran_PetCare.Models.VetClass>
+
+<h3>Vet</h3>
+<p>@Html.ActionLink("Vet Views", "CreateVet")</p>
+<table>
+    <thead>
+        <tr>
+            <th>Vet ID</th>
+            <th>Vet Name</th>
+            <th>Specialisation</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vet in Model)
+        {
+            <tr>
+                <td>@vet.vetID</td>
+                <td>@vet.vetName</td>
+                <td>@vet.vetSpecialisation</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Home", new {@id=vet.vetID })">Edit</a>
+                    <a href="@Url.Action("Delete", "Home", new {@id=vet.vetID })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

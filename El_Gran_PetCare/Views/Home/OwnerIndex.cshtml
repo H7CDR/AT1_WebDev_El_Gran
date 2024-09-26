@@ -1,0 +1,31 @@
+﻿@model IEnumerable<El_Gran_PetCare.Models.OwnerClass>
+
+<h3>Owner</h3>
+<p>@Html.ActionLink("New Owner", "CreateOwner")</p>
+<table>
+    <thead>
+        <tr>
+            <th>Owner ID</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var owner in Model)
+        {
+            <tr>
+                <td>@owner.ownerID</td>
+                <td>@owner.ownerName</td>
+                <td>@owner.ownerPhone</td>
+                <td>@owner.ownerEmail</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Home", new {@id=owner.ownerID })">Edit</a>
+                    <a href="@Url.Action("Delete", "Home", new {@id=owner.ownerID })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
