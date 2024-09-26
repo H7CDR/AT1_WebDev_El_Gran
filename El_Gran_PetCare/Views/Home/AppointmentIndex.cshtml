@@ -2,43 +2,41 @@
 
 
 <h2>El Gran Pet Care</h2>
-    <p>
-        @Html.ActionLink("New Appointment", "CreateAppointment")
-        @Html.ActionLink("New Owner", "CreateOwner")
-        @Html.ActionLink("New Pet", "CreatePet")
-    </p>
-    <h3>Appointments</h3>
-    <table>
-        <thead>
+<h3>Appointments</h3>
+<p>
+    @Html.ActionLink("New Appointment", "CreateAppointment")
+</p>
+<table>
+    <thead>
+        <tr>
+            <th>Appointment ID</th>
+            <th>Owner ID</th>
+            <th>Pet ID</th>
+            <th>Vet ID</th>
+            <th>Date</th>
+            <th>Reason</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model)
+        {
             <tr>
-                <th>Appointment ID</th>
-                <th>Owner ID</th>
-                <th>Pet ID</th>
-                <th>Vet ID</th>
-                <th>Date</th>
-                <th>Reason</th>
-                <th>Notes</th>
+                <td>@appointment.appointmentID</td>
+                <td>@appointment.ownerID</td>
+                <td>@appointment.petID</td>
+                <td>@appointment.vetID</td>
+                <td>@appointment.appointmentDate</td>
+                <td>@appointment.appointmentReason</td>
+                <td>@appointment.appointmentNote</td>
+
+                <td>
+                    <a href="@Url.Action("UpdateAppointment", "Home", new {@appointmentID=@appointment.appointmentID })">Edit</a>
+                    <a href="@Url.Action("DeleteAppointment", "Home", new {@appointmentID=@appointment.appointmentID })">Delete</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var appointment in Model)
-            {
-                <tr>
-                    <td>@appointment.appointmentID</td>
-                    <td>@appointment.ownerID</td>
-                    <td>@appointment.petID</td>
-                    <td>@appointment.vetID</td>
-                    <td>@appointment.appointmentDate</td>
-                    <td>@appointment.appointmentReason</td>
-                    <td>@appointment.appointmentNote</td>
+        }
+    </tbody>
 
-                    <td>
-                        <a href="@Url.Action("UpdateAppointment", "Home", new {@appointmentID=@appointment.appointmentID })">Edit</a>
-                        <a href="@Url.Action("Delete", "Home", new {@appointmentID=@appointment.appointmentID })">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-
-    </table>
+</table>
 

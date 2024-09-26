@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Data.SqlClient;
 using System.Data;
+using System.Web.DynamicData;
 
 namespace El_Gran_PetCare.Controllers
 {
@@ -260,6 +261,202 @@ namespace El_Gran_PetCare.Controllers
             return RedirectToAction("AppointmentIndex"); 
         }
 
+        public ActionResult UpdateVet(int vetID)
+        {
+            VetClass vetModel = new VetClass();
+            DataTable vetData = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM VetTable WHERE vetID = @vetID";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@vetID", vetID);
+                adapter.Fill(vetData);
+            }
+            if (vetData.Rows.Count == 1)
+            {
+                vetModel.vetID = Convert.ToInt32(vetData.Rows[0][0].ToString());
+                vetModel.vetName = vetData.Rows[0][1].ToString();
+                vetModel.vetSpecialisation = vetData.Rows[0][2].ToString();
 
+                return View(vetModel);
+            }
+            else
+                return RedirectToAction("VetIndex");
+        }
+
+        [HttpPost]
+        public ActionResult UpdateVet(VetClass vetClass)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE VetTable SET vetName = @vetName, vetSpecialisation = @vetSpecialisation WHERE vetID = @vetID";
+                SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@vetID", vetClass.vetID);
+                cmd.Parameters.AddWithValue("@vetName", vetClass.vetName);
+                cmd.Parameters.AddWithValue("@vetSpecialisation", vetClass.vetSpecialisation);
+                cmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("VetIndex");
+        }
+
+
+        public ActionResult UpdateOwner(int ownerID)
+        {
+            OwnerClass ownerModel = new OwnerClass();
+            DataTable ownerData = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM OwnerTable WHERE ownerID = @ownerID";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@ownerID", ownerID);
+                adapter.Fill(ownerData);
+            }
+            if (ownerData.Rows.Count == 1)
+            {
+                ownerModel.ownerID = Convert.ToInt32(ownerData.Rows[0][0].ToString());
+                ownerModel.ownerName = ownerData.Rows[0][1].ToString();
+                ownerModel.ownerPhone = ownerData.Rows[0][2].ToString();
+                ownerModel.ownerEmail = ownerData.Rows[0][3].ToString();
+
+                return View(ownerModel);
+            }
+            else
+                return RedirectToAction("OwnerIndex");
+        }
+
+        [HttpPost]
+        public ActionResult UpdateOwner(OwnerClass ownerClass)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE OwnerTable SET ownerName = @ownerName, ownerPhone = @ownerPhone, ownerEmail = @ownerEmail WHERE ownerID = @ownerID";
+                SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@ownerID", ownerClass.ownerID);
+                cmd.Parameters.AddWithValue("@ownerName", ownerClass.ownerName);
+                cmd.Parameters.AddWithValue("@ownerPhone", ownerClass.ownerPhone);
+                cmd.Parameters.AddWithValue("@ownerEmail", ownerClass.ownerEmail);
+                cmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("OwnerIndex");
+        }
+
+        public ActionResult UpdatePet(int petID)
+        {
+            PetClass petModel = new PetClass();
+            DataTable petData = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM PetTable WHERE petID = @petID";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@petID", petID);
+                adapter.Fill(petData);
+            }
+            if (petData.Rows.Count == 1)
+            {
+                petModel.petID = Convert.ToInt32(petData.Rows[0][0].ToString());
+                petModel.petName = petData.Rows[0][1].ToString();
+                petModel.petSpecies = petData.Rows[0][2].ToString();
+                petModel.petBreed = petData.Rows[0][3].ToString();
+                petModel.petGender = (Convert.ToBoolean(petData.Rows[0][4]));
+                petModel.petAge = Convert.ToInt32(petData.Rows[0][5].ToString());
+                petModel.ownerID = Convert.ToInt32(petData.Rows[0][6].ToString());
+
+                return View(petModel);
+            }
+            else
+                return RedirectToAction("PetIndex");
+        }
+
+        [HttpPost]
+        public ActionResult UpdatePet(PetClass petClass)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE PetTable SET petName = @petName, petSpecies = @petSpecies, petBreed = @petBreed, petGender = @petGender, petAge =@petAge, ownerID = @ownerID  WHERE petID = @petID";
+                SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@petID", petClass.petID);
+                cmd.Parameters.AddWithValue("@petName", petClass.petName);
+                cmd.Parameters.AddWithValue("@petSpecies", petClass.petSpecies);
+                cmd.Parameters.AddWithValue("@petBreed", petClass.petBreed);
+                cmd.Parameters.AddWithValue("@petGender", petClass.petGender);
+                cmd.Parameters.AddWithValue("@petAge", petClass.petAge);
+                cmd.Parameters.AddWithValue("@ownerID", petClass.ownerID);
+                cmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("PetIndex");
+        }
+
+        public ActionResult DeleteVet(int vetID)
+        {
+            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            {
+                sqlCon.Open();
+                string query = "DELETE FROM VetTable WHERE vetID = @vetID";
+                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                sqlCmd.Parameters.AddWithValue("@vetID", vetID);
+                sqlCmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("VetIndex");
+        }
+        public ActionResult DeleteOwner(int ownerID)
+        {
+            try
+            {
+                using (SqlConnection sqlCon = new SqlConnection(connectionString))
+                {
+                    sqlCon.Open();
+                    string query = "DELETE FROM OwnerTable WHERE ownerID = @ownerID";
+                    SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                    sqlCmd.Parameters.AddWithValue("@ownerID", ownerID);
+                    sqlCmd.ExecuteNonQuery();
+                }
+                return RedirectToAction("OwnerIndex");
+            }
+            catch (Exception ex) { return RedirectToAction("OwnerIndex"); };
+
+        }
+        public ActionResult DeletePet(int petID)
+        {
+            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            {
+                sqlCon.Open();
+                string query = "DELETE FROM PetTable WHERE petID = @petID";
+                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                sqlCmd.Parameters.AddWithValue("@petID", petID);
+                sqlCmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("PetIndex");
+        }
+        public ActionResult DeleteAppointment(int appointmentID)
+        {
+            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            {
+                sqlCon.Open();
+                string query = "DELETE FROM AppointmentTable WHERE appointmentID = @appointmentID";
+                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                sqlCmd.Parameters.AddWithValue("@appointmentID", appointmentID);
+                sqlCmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("AppointmentIndex");
+        }
+
+        public ActionResult DisplayReport() 
+        {
+            
+            
+
+
+            
+            return View(); 
+        }
     }
+
+
+
 }

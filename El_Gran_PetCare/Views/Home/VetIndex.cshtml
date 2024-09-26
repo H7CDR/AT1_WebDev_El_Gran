@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.VetClass>
-
+<h2>El Gran Pet Care</h2>
 <h3>Vet</h3>
-<p>@Html.ActionLink("Vet Views", "CreateVet")</p>
+<p>@Html.ActionLink("New Vet", "CreateVet")</p>
 <table>
     <thead>
         <tr>
@@ -18,8 +18,8 @@
                 <td>@vet.vetName</td>
                 <td>@vet.vetSpecialisation</td>
                 <td>
-                    <a href="@Url.Action("Edit", "Home", new {@id=vet.vetID })">Edit</a>
-                    <a href="@Url.Action("Delete", "Home", new {@id=vet.vetID })">Delete</a>
+                    <a href="@Url.Action("UpdateVet", "Home", new {@vetID=vet.vetID })">Edit</a>
+                    <a href="@Url.Action("DeleteVet", "Home", new {@vetID=vet.vetID })">Delete</a>
                 </td>
             </tr>
         }

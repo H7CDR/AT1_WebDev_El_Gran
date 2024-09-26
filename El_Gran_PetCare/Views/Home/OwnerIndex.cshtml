@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.OwnerClass>
-
+<h2>El Gran Pet Care</h2>
 <h3>Owner</h3>
 <p>@Html.ActionLink("New Owner", "CreateOwner")</p>
 <table>
@@ -20,8 +20,8 @@
                 <td>@owner.ownerPhone</td>
                 <td>@owner.ownerEmail</td>
                 <td>
-                    <a href="@Url.Action("Edit", "Home", new {@id=owner.ownerID })">Edit</a>
-                    <a href="@Url.Action("Delete", "Home", new {@id=owner.ownerID })">Delete</a>
+                    <a href="@Url.Action("UpdateOwner", "Home", new {@ownerID=owner.ownerID })">Edit</a>
+                    <a href="@Url.Action("DeleteOwner", "Home", new {@ownerID=owner.ownerID })">Delete</a>
                 </td>
             </tr>
         }
