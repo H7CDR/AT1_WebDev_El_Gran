@@ -213,15 +213,16 @@ namespace El_Gran_PetCare.Controllers
         }
 
 
-        public ActionResult UpdateAppointment(int appointID)
+        public ActionResult UpdateAppointment(int appointmentID)
         {
             AppointmentModels appointmentModel = new AppointmentModels();   
             DataTable appointmentData = new DataTable();
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "SELECT * FROM AppointmentTable WHERE appointmentID = @appointID";
+                string query = "SELECT * FROM AppointmentTable WHERE appointmentID = @appointmentID";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@appointmentID",appointmentID);
                 adapter.Fill(appointmentData);
             }
             if (appointmentData.Rows.Count == 1)
@@ -245,9 +246,9 @@ namespace El_Gran_PetCare.Controllers
             using (SqlConnection connection = new SqlConnection(connectionString))
             { 
                 connection.Open();
-                string query = "UPDATE ApponitmentTable SET ownerID = @ownerID, petID = @petID, vetID = @vetID, appointmentDate = @appointmentDate, appointmentReason = @appointmentReason, appointmentNote = @appointmentNote where appointmentID = @appointID";
+                string query = "UPDATE ApponitmentTable SET ownerID = @ownerID, petID = @petID, vetID = @vetID, appointmentDate = @appointmentDate, appointmentReason = @appointmentReason, appointmentNote = @appointmentNote where appointmentID = @appointmentID";
                 SqlCommand cmd = new SqlCommand(query, connection);
-                cmd.Parameters.AddWithValue("@appointID", appointmentModel.appointmentID);
+                cmd.Parameters.AddWithValue("@appointmentID", appointmentModel.appointmentID);
                 cmd.Parameters.AddWithValue("@ownerID", appointmentModel.ownerID);
                 cmd.Parameters.AddWithValue("@petID", appointmentModel.petID);
                 cmd.Parameters.AddWithValue("@vetID", appointmentModel.vetID);
