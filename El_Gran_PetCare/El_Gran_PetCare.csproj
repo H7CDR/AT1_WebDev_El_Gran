@@ -185,6 +185,8 @@
     <Content Include="Views\Home\OwnerIndex.cshtml" />
     <Content Include="Views\Home\PetIndex.cshtml" />
     <Content Include="Views\Home\CreatePet.cshtml" />
+    <Content Include="Views\Home\UpdateAppointment.cshtml" />
+    <Content Include="Views\Home\UpdateOwner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
