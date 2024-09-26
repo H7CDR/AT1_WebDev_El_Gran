@@ -394,15 +394,19 @@ namespace El_Gran_PetCare.Controllers
 
         public ActionResult DeleteVet(int vetID)
         {
-            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            try
             {
-                sqlCon.Open();
-                string query = "DELETE FROM VetTable WHERE vetID = @vetID";
-                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
-                sqlCmd.Parameters.AddWithValue("@vetID", vetID);
-                sqlCmd.ExecuteNonQuery();
+                using (SqlConnection sqlCon = new SqlConnection(connectionString))
+                {
+                    sqlCon.Open();
+                    string query = "DELETE FROM VetTable WHERE vetID = @vetID";
+                    SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                    sqlCmd.Parameters.AddWithValue("@vetID", vetID);
+                    sqlCmd.ExecuteNonQuery();
+                }
+                return RedirectToAction("VetIndex");
             }
-            return RedirectToAction("VetIndex");
+            catch (Exception ex) { return RedirectToAction("Error"); };
         }
         public ActionResult DeleteOwner(int ownerID)
         {
@@ -418,20 +422,24 @@ namespace El_Gran_PetCare.Controllers
                 }
                 return RedirectToAction("OwnerIndex");
             }
-            catch (Exception ex) { return RedirectToAction("OwnerIndex"); };
+            catch (Exception ex) { return RedirectToAction("Error"); };
 
         }
         public ActionResult DeletePet(int petID)
         {
-            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            try
             {
-                sqlCon.Open();
-                string query = "DELETE FROM PetTable WHERE petID = @petID";
-                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
-                sqlCmd.Parameters.AddWithValue("@petID", petID);
-                sqlCmd.ExecuteNonQuery();
+                using (SqlConnection sqlCon = new SqlConnection(connectionString))
+                {
+                    sqlCon.Open();
+                    string query = "DELETE FROM PetTable WHERE petID = @petID";
+                    SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
+                    sqlCmd.Parameters.AddWithValue("@petID", petID);
+                    sqlCmd.ExecuteNonQuery();
+                }
+                return RedirectToAction("PetIndex");
             }
-            return RedirectToAction("PetIndex");
+            catch (Exception ex) { return RedirectToAction("Error"); };
         }
         public ActionResult DeleteAppointment(int appointmentID)
         {
@@ -446,14 +454,18 @@ namespace El_Gran_PetCare.Controllers
             return RedirectToAction("AppointmentIndex");
         }
 
-        public ActionResult DisplayReport() 
+        public ActionResult About()
         {
-            
-            
+            ViewBag.Message = "About";
 
+            return View();
+        }
 
-            
-            return View(); 
+        public ActionResult Error()
+        {
+            ViewBag.Message = "Error";
+
+            return View();
         }
     }
 
