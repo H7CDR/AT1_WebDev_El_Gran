@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.PetClass>
-
+<h2>El Gran Pet Care</h2>
 <h3>Pet</h3>
 <p>@Html.ActionLink("New Pet", "CreatePet")</p>
 <table>
@@ -26,8 +26,8 @@
                 <td>@pet.petAge</td>
                 <td>@pet.ownerID</td>
                 <td>
-                    <a href="@Url.Action("Edit", "Home", new {@id=pet.petID })">Edit</a>
-                    <a href="@Url.Action("Delete", "Home", new {@id=pet.petID })">Delete</a>
+                    <a href="@Url.Action("UpdatePet", "Home", new {@petId=pet.petID })">Edit</a>
+                    <a href="@Url.Action("DeletePet", "Home", new {@petId=pet.petID })">Delete</a>
                 </td>
             </tr>
         }

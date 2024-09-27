@@ -187,6 +187,8 @@
     <Content Include="Views\Home\CreatePet.cshtml" />
     <Content Include="Views\Home\UpdateAppointment.cshtml" />
     <Content Include="Views\Home\UpdateOwner.cshtml" />
+    <Content Include="Views\Home\UpdateVet.cshtml" />
+    <Content Include="Views\Home\UpdatePet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
