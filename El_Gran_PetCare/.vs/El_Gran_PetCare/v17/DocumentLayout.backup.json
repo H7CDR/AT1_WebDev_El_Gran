@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|c:\\users\\h7cdr\\documents\\github\\at1_webdev_el_gran\\el_gran_petcare\\views\\home\\appointmentindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\appointmentindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|c:\\users\\h7cdr\\documents\\github\\at1_webdev_el_gran\\el_gran_petcare\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|c:\\users\\h7cdr\\documents\\github\\at1_webdev_el_gran\\el_gran_petcare\\content\\layoutcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:content\\layoutcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\updatevet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\updatevet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\appointmentindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\appointmentindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\updateappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\updateappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\updatevet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\updatevet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\vetindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,11 +50,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "layoutCss.css",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Content\\layoutCss.css",
+              "RelativeDocumentMoniker": "Content\\layoutCss.css",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Content\\layoutCss.css",
+              "RelativeToolTip": "Content\\layoutCss.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-30T02:48:17.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:06:06.222Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T11:23:51.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T11:21:38.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateVet.cshtml",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UpdateVet.cshtml",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
+              "RelativeToolTip": "Views\\Home\\UpdateVet.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T08:35:52.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T04:37:09.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppointmentIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AppointmentIndex.cshtml",
@@ -59,43 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:51.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:21:38.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateVet.cshtml",
-              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\UpdateVet.cshtml",
-              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
-              "RelativeToolTip": "Views\\Home\\UpdateVet.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T08:35:52.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "VetIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\VetIndex.cshtml",
@@ -107,19 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T04:37:09.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -131,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UpdateAppointment.cshtml",
               "DocumentMoniker": "C:\\Users\\h7cdr\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UpdateAppointment.cshtml",

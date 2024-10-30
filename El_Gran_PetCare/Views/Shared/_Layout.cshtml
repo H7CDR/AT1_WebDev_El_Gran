@@ -3,40 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - El Gran Pet Care</title>
+    <link rel="stylesheet" href="~/Content/layoutCss.css">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("El Gran Pet Care", "AppointmentIndex", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Appointment", "AppointmentIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Vet", "VetIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Owner", "OwnerIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Pet", "PetIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-            </div>
+        <div class="container d-flex justify-content-between">
+            <div><a href=@Url.Action("AppointmentIndex","Home")><img src="~/Content/img/1.png" width="80" height="80" style="cursor:pointer;border:1px solid transparent; border-radius:20px" alt="" /></a></div>
+            <div><h1 style="color:#fff;">EL GRAN PET CARE</h1></div>
+            <div><img src="~/Content/img/1.png" width="80" height="80" style="border:1px solid transparent; border-radius:20px; opacity:0;" alt="" /></div>
         </div>
     </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+        <nav class="navbar navbar-expand-md navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container collapse navbar-collapse d-md-inline-flex justify-content-evenly">
+                    <ul class="nav nav-justified">
+                        <li class="nav-item me-sm-5">@Html.ActionLink("Appointment", "AppointmentIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li class="nav-item me-sm-5">@Html.ActionLink("Vet", "VetIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li class="nav-item me-sm-5">@Html.ActionLink("Owner", "OwnerIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li class="nav-item me-sm-5">@Html.ActionLink("Pet", "PetIndex", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li class="nav-item me-sm-5">@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li class="nav-item me-sm-5">@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
 </body>
 </html>
