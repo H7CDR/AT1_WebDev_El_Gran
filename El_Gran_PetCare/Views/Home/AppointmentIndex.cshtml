@@ -1,42 +1,82 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.AppointmentModels>
 
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+    }
 
-<h2>El Gran Pet Care</h2>
-<h3>Appointments</h3>
-<p>
-    @Html.ActionLink("New Appointment", "CreateAppointment")
-</p>
-<table>
-    <thead>
-        <tr>
-            <th>Appointment ID</th>
-            <th>Owner ID</th>
-            <th>Pet ID</th>
-            <th>Vet ID</th>
-            <th>Date</th>
-            <th>Reason</th>
-            <th>Notes</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var appointment in Model)
-        {
-            <tr>
-                <td>@appointment.appointmentID</td>
-                <td>@appointment.ownerID</td>
-                <td>@appointment.petID</td>
-                <td>@appointment.vetID</td>
-                <td>@appointment.appointmentDate</td>
-                <td>@appointment.appointmentReason</td>
-                <td>@appointment.appointmentNote</td>
+    h2, h3 {
+        color: #00627D;
+        font-family: Tahoma, sans-serif;
+    }
 
-                <td>
-                    <a href="@Url.Action("UpdateAppointment", "Home", new {@appointmentID=@appointment.appointmentID })">Edit</a>
-                    <a href="@Url.Action("DeleteAppointment", "Home", new {@appointmentID=@appointment.appointmentID })">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
+    .btn-primary {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+    }
 
-</table>
+    .btn-warning {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+        color: #fff;
+    }
 
+    .btn-primary:hover, .btn-warning:hover {
+        background-color: #00627D;
+        border-color: #00627D;
+        color: #fff;
+    }
+
+    .thead-dark {
+        background-color: #00627D;
+        color: #d3d3d3;
+    }
+    .table td{
+        color: black
+    }
+    .table th {
+        color: #d3d3d3;
+    }
+</style>
+
+<div class="container">
+    <h2 class="my-4">El Gran Pet Care</h2>
+    <h3>Appointments</h3>
+    <p>
+        @Html.ActionLink("New Appointment", "CreateAppointment", null, new { @class = "btn btn-primary mb-3" })
+    </p>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Appointment ID</th>
+                    <th>Owner ID</th>
+                    <th>Pet ID</th>
+                    <th>Vet ID</th>
+                    <th>Date</th>
+                    <th>Reason</th>
+                    <th>Notes</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var appointment in Model)
+                {
+                    <tr>
+                        <td>@appointment.appointmentID</td>
+                        <td>@appointment.ownerID</td>
+                        <td>@appointment.petID</td>
+                        <td>@appointment.vetID</td>
+                        <td>@appointment.appointmentDate.ToString("yyyy-MM-dd")</td>
+                        <td>@appointment.appointmentReason</td>
+                        <td>@appointment.appointmentNote</td>
+                        <td>
+                            <a href="@Url.Action("UpdateAppointment", "Home", new { @appointmentID = @appointment.appointmentID })" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="@Url.Action("DeleteAppointment", "Home", new { @appointmentID = @appointment.appointmentID })" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

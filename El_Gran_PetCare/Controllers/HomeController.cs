@@ -13,32 +13,22 @@ namespace El_Gran_PetCare.Controllers
 {
     public class HomeController : Controller
     {
-        //Connection String using this to talk to the SQL DB
-        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PetCare_DB;Integrated Security=True;";
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Pet_Store;Integrated Security=True;";
 
-        //Home/AppointmentIndex --- appointment page
         public ActionResult AppointmentIndex()
         {
-            //Catching any error
             try
             {
-                //viewing available appointments 
                 var appointments = new List<AppointmentModels>();
-                //Connect to the SQL DB
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    //String SQL query command
                     string query = "SELECT * FROM AppointmentTable";
-                    //Combining query and connecting 
                     SqlCommand cmd = new SqlCommand(query, connection);
-                    //Connect to the DB
                     connection.Open();
-                    //Execute a read command to a SQLData reader class
                     SqlDataReader reader = cmd.ExecuteReader();
-                    //Loop reader to fill up 
                     while (reader.Read())
                     {
-                        //For every appointment data read // add a new line.
+
                         appointments.Add(new AppointmentModels
                         {
                             appointmentID = reader.GetInt32(0),
@@ -52,10 +42,8 @@ namespace El_Gran_PetCare.Controllers
 
                     }
                 }
-                //After filling load the page
                 return View(appointments);
             }
-            //throw error and return error page if occur
             catch (Exception ex) { return RedirectToAction("Error"); };
         }
 
@@ -533,9 +521,22 @@ namespace El_Gran_PetCare.Controllers
             catch (Exception ex) { return RedirectToAction("Error"); };
         }
 
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+
         public ActionResult About()
         {
             ViewBag.Message = "About";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Contact";
 
             return View();
         }

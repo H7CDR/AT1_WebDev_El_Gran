@@ -1,0 +1,123 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+    }
+
+    h1.display-3 {
+        font-family: Tahoma, sans-serif;
+        color: #00627D;
+    }
+
+    .card-title {
+        font-family: Verdana, sans-serif;
+        color: #00627D;
+    }
+
+    .carousel-caption h5 {
+        font-family: "Times New Roman", serif;
+    }
+
+    nav.navbar,
+    footer.container-fluid {
+        background-color: #00627D;
+    }
+
+    .btn-primary {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+    }
+
+    .btn-outline-secondary {
+        color: #00627D;
+        border-color: #00627D;
+    }
+</style>
+
+<div class="d-flex flex-column min-vh-100">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 60vh; width: 100vw">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 100%; width: 100%">
+            <div class="carousel-item active">
+                <img src="~/Content/img/carousel1.png" class="d-block w-100" alt="Streamline Your Workflow">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/img/carousel2.png" class="d-block w-100" alt="Comprehensive Pet Management">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/img/carousel3.png" class="d-block w-100" alt="Vet Collaboration">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid mt-5 px-5 d-flex justify-content-center align-items-center text-center" style="max-width: 800px;">
+        <div>
+            <h1 class="display-3 fw-bold">Welcome to El Gran Pet Care Management</h1>
+            <p class="lead text-muted">El Gran Pet Care is your trusted veterinary service, dedicated to the health and happiness of pets. We offer comprehensive care and ensure that every aspect of your pet's well-being is taken care of. This is where you can efficiently manage appointments, pet details, vet details, and owner information—all in one place.</p>
+            <div class="mt-4">
+                <a href="@Url.Action("About", "Home")" class="btn btn-primary btn-lg me-3">More Info</a>
+                <a href="@Url.Action("Contact", "Home")" class="btn btn-outline-secondary btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 px-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body">
+                        <a href="@Url.Action("AppointmentIndex", "Home")">
+                            <img src="~/Content/img/appointment.jpg" class="img-fluid mb-3" alt="Appointment Management">
+                            <h5 class="card-title fw-bold">Appointment Management</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body">
+                        <a href="@Url.Action("VetIndex", "Home")">
+                            <img src="~/Content/img/vet.jpg" class="img-fluid mb-3" alt="Vet Management">
+                            <h5 class="card-title fw-bold">Vet Management</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body">
+                        <a href="@Url.Action("OwnerIndex", "Home")">
+                            <img src="~/Content/img/owner.jpg" class="img-fluid mb-3" alt="Owner Management">
+                            <h5 class="card-title fw-bold">Owner Management</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body">
+                        <a href="@Url.Action("PetIndex", "Home")">
+                            <img src="~/Content/img/pet.jpg" class="img-fluid mb-3" alt="Pet Management">
+                            <h5 class="card-title fw-bold">Pet Management</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

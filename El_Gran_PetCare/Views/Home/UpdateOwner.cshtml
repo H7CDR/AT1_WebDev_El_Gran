@@ -3,51 +3,58 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>OwnerClass</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.ownerID, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ownerID, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ownerID, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ownerName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ownerName, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ownerName, "", new { @class = "text-danger" })
-            </div>
-        </div>
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="form-container p-5 bg-light rounded shadow">
+            <h2 class="text-center mb-4" style="color: #00627D; font-family: Tahoma, sans-serif;">Update Owner</h2>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ownerPhone, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ownerPhone, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ownerPhone, "", new { @class = "text-danger" })
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.ownerID, "Owner ID", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.ownerID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ownerID, "", new { @class = "text-danger" })
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ownerEmail, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ownerEmail, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ownerEmail, "", new { @class = "text-danger" })
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.ownerName, "Name", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.ownerName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ownerName, "", new { @class = "text-danger" })
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.ownerPhone, "Phone Number", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.ownerPhone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ownerPhone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.ownerEmail, "Email Address", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.ownerEmail, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ownerEmail, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-8 offset-sm-4">
+                    <input type="submit" value="Save" class="btn btn-primary" style="background-color: #11BCC3; border-color: #11BCC3;" />
+                </div>
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "OwnerIndex")
+<div class="mt-4 d-flex justify-content-center">
+    @Html.ActionLink("Back to List", "OwnerIndex", null, new { @class = "btn btn-secondary", @style = "background-color: #00627D; color: #d3d3d3;" })
 </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

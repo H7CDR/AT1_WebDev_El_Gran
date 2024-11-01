@@ -1,31 +1,79 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.OwnerClass>
-<h2>El Gran Pet Care</h2>
-<h3>Owner</h3>
-<p>@Html.ActionLink("New Owner", "CreateOwner")</p>
-<table>
-    <thead>
-        <tr>
-            <th>Owner ID</th>
-            <th>Name</th>
-            <th>Phone Number</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var owner in Model)
-        {
-            <tr>
-                <td>@owner.ownerID</td>
-                <td>@owner.ownerName</td>
-                <td>@owner.ownerPhone</td>
-                <td>@owner.ownerEmail</td>
-                <td>
-                    <a href="@Url.Action("UpdateOwner", "Home", new {@ownerID=owner.ownerID })">Edit</a>
-                    <a href="@Url.Action("DeleteOwner", "Home", new {@ownerID=owner.ownerID })">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
 
-</table>
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+    }
 
+    h2.my-4, h3 {
+        font-family: Tahoma, sans-serif;
+        color: #00627D;
+    }
+
+    .btn-primary {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+    }
+
+    .btn-warning {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+        color: #fff;
+    }
+
+    .btn-primary:hover, .btn-warning:hover {
+        background-color: #00627D;
+        border-color: #00627D;
+        color: #fff;
+    }
+
+    .table thead {
+        background-color: #00627D;
+        color: #d3d3d3;
+    }
+
+    .table td {
+        color: black
+    }
+
+    .table th {
+        color: #d3d3d3;
+    }
+
+</style>
+
+<div class="container">
+    <h2 class="my-4">El Gran Pet Care</h2>
+    <h3>Owner</h3>
+    <p>
+        @Html.ActionLink("New Owner", "CreateOwner", null, new { @class = "btn btn-primary mb-3" })
+    </p>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Owner ID</th>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var owner in Model)
+                {
+                    <tr>
+                        <td>@owner.ownerID</td>
+                        <td>@owner.ownerName</td>
+                        <td>@owner.ownerPhone</td>
+                        <td>@owner.ownerEmail</td>
+                        <td>
+                            <a href="@Url.Action("UpdateOwner", "Home", new { @ownerID = owner.ownerID })" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="@Url.Action("DeleteOwner", "Home", new { @ownerID = owner.ownerID })" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
