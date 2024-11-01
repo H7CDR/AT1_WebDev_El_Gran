@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\El_Gran_PetCare",
+    "\\El_Gran_PetCare\\Views",
+    "\\El_Gran_PetCare\\Views\\Home"
   ],
-  "SelectedNode": "\\El_Gran_PetCare.sln",
+  "SelectedNode": "\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
   "PreviewInSolutionExplorer": false
 }
