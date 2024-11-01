@@ -13,7 +13,7 @@ namespace El_Gran_PetCare.Controllers
 {
     public class HomeController : Controller
     {
-        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PetCare_DB;Integrated Security=True;";
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Pet_Store;Integrated Security=True;";
 
         public ActionResult AppointmentIndex()
         {
@@ -277,14 +277,14 @@ namespace El_Gran_PetCare.Controllers
         }
 
         [HttpPost]
-        public ActionResult UpdateAppontment(AppointmentModels appointmentModel)
+        public ActionResult UpdateAppointment(AppointmentModels appointmentModel)
         {
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "UPDATE ApponitmentTable SET ownerID = @ownerID, petID = @petID, vetID = @vetID, appointmentDate = @appointmentDate, appointmentReason = @appointmentReason, appointmentNote = @appointmentNote where appointmentID = @appointmentID";
+                    string query = "UPDATE AppointmentTable SET ownerID = @ownerID, petID = @petID, vetID = @vetID, appointmentDate = @appointmentDate, appointmentReason = @appointmentReason, appointmentNote = @appointmentNote where appointmentID = @appointmentID";
                     SqlCommand cmd = new SqlCommand(query, connection);
                     cmd.Parameters.AddWithValue("@appointmentID", appointmentModel.appointmentID);
                     cmd.Parameters.AddWithValue("@ownerID", appointmentModel.ownerID);
@@ -521,9 +521,22 @@ namespace El_Gran_PetCare.Controllers
             catch (Exception ex) { return RedirectToAction("Error"); };
         }
 
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+
         public ActionResult About()
         {
             ViewBag.Message = "About";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Contact";
 
             return View();
         }

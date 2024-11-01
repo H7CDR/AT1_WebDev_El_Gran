@@ -1,37 +1,85 @@
 ﻿@model IEnumerable<El_Gran_PetCare.Models.PetClass>
-<h2>El Gran Pet Care</h2>
-<h3>Pet</h3>
-<p>@Html.ActionLink("New Pet", "CreatePet")</p>
-<table>
-    <thead>
-        <tr>
-            <th>Pet ID</th>
-            <th>Name</th>
-            <th>Species</th>
-            <th>Breed</th>
-            <th>Gender</th>
-            <th>Age</th>
-            <th>Owner ID</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var pet in Model)
-        {
-            <tr>
-                <td>@pet.petID</td>
-                <td>@pet.petName</td>
-                <td>@pet.petSpecies</td>
-                <td>@pet.petBreed</td>
-                <td>@(pet.petGender ? "Female": "Male")</td>
-                <td>@pet.petAge</td>
-                <td>@pet.ownerID</td>
-                <td>
-                    <a href="@Url.Action("UpdatePet", "Home", new {@petId=pet.petID })">Edit</a>
-                    <a href="@Url.Action("DeletePet", "Home", new {@petId=pet.petID })">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
 
-</table>
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+    }
 
+    h2.my-4, h3 {
+        font-family: Tahoma, sans-serif;
+        color: #00627D;
+    }
+
+    .btn-primary {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+    }
+
+    .btn-warning {
+        background-color: #11BCC3;
+        border-color: #11BCC3;
+        color: #fff;
+    }
+
+    .btn-primary:hover, .btn-warning:hover {
+        background-color: #00627D;
+        border-color: #00627D;
+        color: #fff;
+    }
+
+    .table thead {
+        background-color: #00627D;
+        color: #d3d3d3;
+    }
+
+    .table td {
+        color: black
+    }
+
+    .table th {
+        color: #d3d3d3;
+    }
+
+</style>
+
+<div class="container">
+    <h2 class="my-4">El Gran Pet Care</h2>
+    <h3>Pet</h3>
+    <p>
+        @Html.ActionLink("New Pet", "CreatePet", null, new { @class = "btn btn-primary mb-3" })
+    </p>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Pet ID</th>
+                    <th>Name</th>
+                    <th>Species</th>
+                    <th>Breed</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Owner ID</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pet in Model)
+                {
+                    <tr>
+                        <td>@pet.petID</td>
+                        <td>@pet.petName</td>
+                        <td>@pet.petSpecies</td>
+                        <td>@pet.petBreed</td>
+                        <td>@(pet.petGender ? "Female" : "Male")</td>
+                        <td>@pet.petAge</td>
+                        <td>@pet.ownerID</td>
+                        <td>
+                            <a href="@Url.Action("UpdatePet", "Home", new { @petId = pet.petID })" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="@Url.Action("DeletePet", "Home", new { @petId = pet.petID })" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

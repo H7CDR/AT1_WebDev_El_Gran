@@ -3,77 +3,84 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>PetClass</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.petID, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.petID, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.petID, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.petName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.petName, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.petName, "", new { @class = "text-danger" })
-            </div>
-        </div>
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="form-container p-5 bg-light rounded shadow">
+            <h2 class="text-center mb-4" style="color: #00627D; font-family: Tahoma, sans-serif;">Update Pet</h2>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.petSpecies, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.petSpecies, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.petSpecies, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.petBreed, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.petBreed, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.petBreed, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.petGender, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                <div class="checkbox">
-                    @Html.EditorFor(model => model.petGender)
-                    @Html.ValidationMessageFor(model => model.petGender, "", new { @class = "text-danger" })
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petID, "Pet ID", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.petID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.petID, "", new { @class = "text-danger" })
                 </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.petAge, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.petAge, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.petAge, "", new { @class = "text-danger" })
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petName, "Pet Name", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.petName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.petName, "", new { @class = "text-danger" })
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ownerID, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ownerID, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ownerID, "", new { @class = "text-danger" })
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petSpecies, "Species", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.petSpecies, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.petSpecies, "", new { @class = "text-danger" })
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petBreed, "Breed", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.petBreed, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.petBreed, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petGender, "Gender", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    <div class="form-check">
+                        @Html.EditorFor(model => model.petGender, new { htmlAttributes = new { @class = "form-check-input" } })
+                        @Html.ValidationMessageFor(model => model.petGender, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.petAge, "Age", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.petAge, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.petAge, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                @Html.LabelFor(model => model.ownerID, "Owner ID", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.ownerID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ownerID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-8 offset-sm-4">
+                    <input type="submit" value="Save" class="btn btn-primary" style="background-color: #11BCC3; border-color: #11BCC3;" />
+                </div>
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
+<div class="mt-4 d-flex justify-content-center">
+    @Html.ActionLink("Back to List", "PetIndex", null, new { @class = "btn btn-secondary", @style = "background-color: #00627D; color: #d3d3d3;" })
 </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
