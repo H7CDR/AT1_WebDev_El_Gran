@@ -13,7 +13,7 @@ namespace El_Gran_PetCare.Controllers
 {
     public class HomeController : Controller
     {
-        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Pet_Store;Integrated Security=True;";
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PetCare_DB;Integrated Security=True;";
 
         public ActionResult AppointmentIndex()
         {
