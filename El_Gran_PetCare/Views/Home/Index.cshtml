@@ -36,19 +36,27 @@
         border-color: #00627D;
     }
 
-    .carousel-inner .item a img {
-        margin: auto;
+    .custom-carousel {
+        max-height: 600px;
+        overflow: hidden;
+    }
+
+    .custom-carousel .carousel-inner img {
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+        object-fit: cover;
     }
 </style>
 
-<div class="d-flex flex-column">
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 60vh; width: 100vw">
+<div class="d-flex flex-column min-vh-100">
+    <div id="carousel" class="carousel slide custom-carousel" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner" style="height: 100%; width: 100%">
+        <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="~/Content/img/carousel1.png" class="d-block w-100" alt="Streamline Your Workflow">
             </div>
