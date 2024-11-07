@@ -43,12 +43,13 @@
             </div>
 
             <div class="row mb-3">
-                @Html.LabelFor(model => model.petGender, "Gender", htmlAttributes: new { @class = "col-sm-4 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
-                <div class="col-sm-8">
-                    <div class="form-check">
-                        @Html.EditorFor(model => model.petGender, new { htmlAttributes = new { @class = "form-check-input" } })
-                        @Html.ValidationMessageFor(model => model.petGender, "", new { @class = "text-danger" })
-                    </div>
+                @Html.LabelFor(model => model.petGender, "Gender", htmlAttributes: new { @class = "col-sm-3 col-form-label", @style = "color: #00627D; font-family: Verdana, sans-serif;" })
+                <div class="col-sm-9 d-flex align-items-center">
+                    @Html.RadioButtonFor(model => model.petGender, "Male", new { @class = "form-check-input", id = "Male" })
+                    <label class="form-check-label me-3" for="Male" style="margin-left: 5px;">Male</label>
+
+                    @Html.RadioButtonFor(model => model.petGender, "Female", new { @class = "form-check-input", id = "Female" })
+                    <label class="form-check-label" for="Female" style="margin-left: 5px;">Female</label>
                 </div>
             </div>
 

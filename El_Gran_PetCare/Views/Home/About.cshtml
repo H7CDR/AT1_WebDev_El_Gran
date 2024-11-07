@@ -1,12 +1,35 @@
-﻿@{
+﻿﻿@{
     ViewBag.Title = "About";
 }
+<style>
+    h2.my-4, h3 {
+        font-family: Tahoma, sans-serif;
+        color: #00627D;
+    }
+</style>
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
+    <div class="container">
+        <h2 class="my-4">@ViewBag.Title.</h2>
+        <h3>El Gran Pet Care</h3>
 
-    <p>This Page is about El Gran Pet Care</p>
-    <p>Leader: Pacifica Wasike </p>
-    <p>Member: Johann Immanuel Otasowie Ogbebor</p>
-    <p>Member: Titchandara Him</p>
+        <p>Our team members do their utmost best to care for your pet.</p>
+        <div class="row">
+            <div class="col">
+                <img src="~/Content/img/blank-person-icon-9.jpg" />
+                <p>Leader: Titchandara Him</p>
+            </div>
+            <div class="col">
+                <img src="~/Content/img/blank-person-icon-9.jpg" />
+                <p>Member: Johann Immanuel Otasowie Ogbebor</p>
+            </div>
+            <div class="col">
+                <img src="~/Content/img/blank-person-icon-9.jpg" />
+                <p>Member: Pacifica Wasike</p>
+            </div>
+            <div class="col">
+                <img src="~/Content/img/blank-person-icon-9.jpg" />
+                <p>Member: Man Yung Lee</p>
+            </div>
+        </div>
+    </div>
 </main>
