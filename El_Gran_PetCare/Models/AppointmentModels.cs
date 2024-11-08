@@ -45,7 +45,7 @@ namespace El_Gran_PetCare.Models
         public string petName { get; set; }
         public string petSpecies { get; set; }
         public string petBreed { get; set; }
-        public bool petGender { get; set; }
+        public string petGender { get; set; }
         public int petAge { get; set; }
 
         [ForeignKey("owner")]

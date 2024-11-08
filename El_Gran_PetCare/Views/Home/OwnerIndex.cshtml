@@ -15,13 +15,7 @@
         border-color: #11BCC3;
     }
 
-    .btn-warning {
-        background-color: #11BCC3;
-        border-color: #11BCC3;
-        color: #fff;
-    }
-
-    .btn-primary:hover, .btn-warning:hover {
+    .btn-primary:hover {
         background-color: #00627D;
         border-color: #00627D;
         color: #fff;
@@ -68,8 +62,11 @@
                         <td>@owner.ownerPhone</td>
                         <td>@owner.ownerEmail</td>
                         <td>
-                            <a href="@Url.Action("UpdateOwner", "Home", new { @ownerID = owner.ownerID })" class="btn btn-warning btn-sm">Edit</a>
-                            <a href="@Url.Action("DeleteOwner", "Home", new { @ownerID = owner.ownerID })" class="btn btn-danger btn-sm">Delete</a>
+                            <a href="@Url.Action("UpdateOwner", "Home", new { @ownerID = owner.ownerID })" class="btn btn-primary btn-sm">Edit</a>
+                            <a href="@Url.Action("DeleteOwner", "Home", new { @ownerID = owner.ownerID })"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Are you sure you want to delete this owner?');">Delete</a>
+
                         </td>
                     </tr>
                 }

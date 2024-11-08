@@ -126,7 +126,7 @@ namespace El_Gran_PetCare.Controllers
                             petName = reader.GetString(1),
                             petSpecies = reader.GetString(2),
                             petBreed = reader.GetString(3),
-                            petGender = reader.GetBoolean(4),
+                            petGender = reader.GetString(4),
                             petAge = reader.GetInt32(5),
                             ownerID = reader.GetInt32(6),
                         });
@@ -421,7 +421,7 @@ namespace El_Gran_PetCare.Controllers
                     petModel.petName = petData.Rows[0][1].ToString();
                     petModel.petSpecies = petData.Rows[0][2].ToString();
                     petModel.petBreed = petData.Rows[0][3].ToString();
-                    petModel.petGender = (Convert.ToBoolean(petData.Rows[0][4]));
+                    petModel.petGender = petData.Rows[0][4].ToString();
                     petModel.petAge = Convert.ToInt32(petData.Rows[0][5].ToString());
                     petModel.ownerID = Convert.ToInt32(petData.Rows[0][6].ToString());
 
