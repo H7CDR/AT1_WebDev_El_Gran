@@ -1,131 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\",
+  "WorkspaceRootPath": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-=======
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|c:\\users\\ricky\\documents\\github\\at1_webdev_el_gran\\el_gran_petcare\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|c:\\users\\ricky\\documents\\github\\at1_webdev_el_gran\\el_gran_petcare\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\PetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\OwnerIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|d:\\at1_webdev_el_gran\\el_gran_petcare\\models\\appointmentmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:models\\appointmentmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|d:\\at1_webdev_el_gran\\el_gran_petcare\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\AppointmentIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdatePet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdatePet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreatePet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreatePet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\VetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\PetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|d:\\at1_webdev_el_gran\\el_gran_petcare\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\AppointmentIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\UpdateOwner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreateVet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\CreateAppointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\VetIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Home\\OwnerIndex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-=======
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C78ED6E5-0644-4042-87A4-A833596DF7A6}|El_Gran_PetCare.csproj|solutionrelative:Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -136,323 +70,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-=======
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OwnerIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\OwnerIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
-              "RelativeToolTip": "Views\\Home\\OwnerIndex.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAUwDYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T14:19:27.472Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wGwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T04:37:09.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PetIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\PetIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
-              "RelativeToolTip": "Views\\Home\\PetIndex.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAUwFUAAAAAAAAA",
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T14:22:33.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppointmentModels.cs",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Models\\AppointmentModels.cs",
-              "RelativeDocumentMoniker": "Models\\AppointmentModels.cs",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Models\\AppointmentModels.cs",
-              "RelativeToolTip": "Models\\AppointmentModels.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T08:15:36.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
->>>>>>> Stashed changes
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-=======
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAABGAAAA",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:01:18.535Z",
+              "WhenOpened": "2024-11-08T00:30:17.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AppointmentIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\AppointmentIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
-              "RelativeToolTip": "Views\\Home\\AppointmentIndex.cshtml",
-<<<<<<< Updated upstream
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:57.749Z",
-              "EditorCaption": ""
-=======
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:57.749Z"
->>>>>>> Stashed changes
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-11-08T00:29:56.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-<<<<<<< Updated upstream
-=======
-              "Title": "UpdatePet.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdatePet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\UpdatePet.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdatePet.cshtml",
-              "RelativeToolTip": "Views\\Home\\UpdatePet.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwFAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:38:28.252Z"
+              "DocumentIndex": 6,
+              "Title": "AppointmentIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AppointmentIndex.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\AppointmentIndex.cshtml",
+              "RelativeToolTip": "Views\\Home\\AppointmentIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-11-08T00:29:56.268Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
->>>>>>> Stashed changes
               "Title": "UpdateOwner.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UpdateOwner.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateOwner.cshtml",
               "RelativeToolTip": "Views\\Home\\UpdateOwner.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwCUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:37:31.006Z"
+              "WhenOpened": "2024-11-08T00:29:56.27Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 2,
-=======
-              "DocumentIndex": 10,
->>>>>>> Stashed changes
+              "DocumentIndex": 3,
               "Title": "UpdateAppointment.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UpdateAppointment.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateAppointment.cshtml",
               "RelativeToolTip": "Views\\Home\\UpdateAppointment.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:36:40.483Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-11-08T00:29:56.272Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PetIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\PetIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\PetIndex.cshtml",
               "RelativeToolTip": "Views\\Home\\PetIndex.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T14:22:33.53Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-11-08T00:29:56.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:21:38.462Z",
+              "WhenOpened": "2024-11-08T00:29:57.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-=======
-              "DocumentIndex": 11,
->>>>>>> Stashed changes
+              "DocumentIndex": 10,
               "Title": "CreateVet.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CreateVet.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateVet.cshtml",
               "RelativeToolTip": "Views\\Home\\CreateVet.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:35:41.378Z"
+              "WhenOpened": "2024-11-08T00:29:57.617Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T04:37:09.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEYAAAAOAAAAAAAAAA==",
-=======
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:51.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreatePet.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreatePet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CreatePet.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreatePet.cshtml",
-              "RelativeToolTip": "Views\\Home\\CreatePet.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwEEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:34:45.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateOwner.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateOwner.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CreateOwner.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateOwner.cshtml",
-              "RelativeToolTip": "Views\\Home\\CreateOwner.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCwAAAAiAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:51.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateAppointment.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CreateAppointment.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml",
-              "RelativeToolTip": "Views\\Home\\CreateAppointment.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T14:26:30.941Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 12,
-              "Title": "OwnerIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\OwnerIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
-              "RelativeToolTip": "Views\\Home\\OwnerIndex.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T14:19:27.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-=======
-              "DocumentIndex": 16,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:21:38.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
->>>>>>> Stashed changes
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T11:23:52.642Z"
+              "WhenOpened": "2024-11-08T00:29:57.619Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UpdateVet.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\UpdateVet.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
-              "RelativeToolTip": "Views\\Home\\UpdateVet.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwC4AAAApAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T08:35:52.494Z"
+              "WhenOpened": "2024-11-08T00:29:57.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
+              "Title": "CreateAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateAppointment.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\CreateAppointment.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateAppointment.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T00:29:57.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OwnerIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\OwnerIndex.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\OwnerIndex.cshtml",
+              "RelativeToolTip": "Views\\Home\\OwnerIndex.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T00:29:57.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T00:29:57.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateVet.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UpdateVet.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\UpdateVet.cshtml",
+              "RelativeToolTip": "Views\\Home\\UpdateVet.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwC4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T00:29:57.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "VetIndex.cshtml",
-              "DocumentMoniker": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\VetIndex.cshtml",
-              "ToolTip": "D:\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml",
+              "ToolTip": "C:\\Users\\ricky\\Documents\\GitHub\\AT1_WebDev_El_Gran\\El_Gran_PetCare\\Views\\Home\\VetIndex.cshtml",
               "RelativeToolTip": "Views\\Home\\VetIndex.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T08:34:08.1Z"
+              "WhenOpened": "2024-11-08T00:29:57.628Z"
             }
           ]
         }
