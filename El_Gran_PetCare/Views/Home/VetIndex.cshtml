@@ -15,13 +15,7 @@
         border-color: #11BCC3;
     }
 
-    .btn-warning {
-        background-color: #11BCC3;
-        border-color: #11BCC3;
-        color: #fff;
-    }
-
-    .btn-primary:hover, .btn-warning:hover {
+    .btn-primary:hover {
         background-color: #00627D;
         border-color: #00627D;
         color: #fff;
@@ -66,8 +60,11 @@
                         <td>@vet.vetName</td>
                         <td>@vet.vetSpecialisation</td>
                         <td>
-                            <a href="@Url.Action("UpdateVet", "Home", new { @vetID = vet.vetID })" class="btn btn-warning btn-sm">Edit</a>
-                            <a href="@Url.Action("DeleteVet", "Home", new { @vetID = vet.vetID })" class="btn btn-danger btn-sm">Delete</a>
+                            <a href="@Url.Action("UpdateVet", "Home", new { @vetID = vet.vetID })" class="btn btn-primary btn-sm">Edit</a>
+                            <a href="@Url.Action("DeleteVet", "Home", new { @vetID = vet.vetID })"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Are you sure you want to delete this vet?');">Delete</a>
+
                         </td>
                     </tr>
                 }
